@@ -1,0 +1,57 @@
+.loginMain{
+  width: 60%;
+  margin: 30px auto;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #097969;
+}
+
+.designDiv{
+  width: 100%;
+  height: 100%;
+  background-color: #097969;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputLogin{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.headLogin{
+  display: flex;
+  justify-content: center;
+}
+
+.txtLogin{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #097969;
+}
+
+.loginBtn{
+  background-color: #097969 !important;
+  margin-bottom: 10px !important;
+}
+
+.inpLogin{
+  display: flex;
+  justify-content: center;
+}
+
+.alphatxt{
+  color: white;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.clickhere{
+  color: #097969;
+  margin-left: 2px;
+}
