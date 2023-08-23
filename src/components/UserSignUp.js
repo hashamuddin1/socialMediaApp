@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 
-export default function UserLogin() {
+export default function UserSignUp() {
   return (
     <>
       <Box
@@ -19,7 +19,25 @@ export default function UserLogin() {
       <div className="loginMain">
         <div className="inputLogin">
           <div className="headLogin">
-            <div className="txtLogin">Login!</div>
+            <div className="txtLogin">Sign Up!</div>
+          </div>
+
+          <div className="inpLogin">
+            <TextField
+              id="outlined-basic"
+              label="First Name"
+              variant="outlined"
+              autoComplete="off"
+            />
+          </div>
+
+          <div className="inpLogin">
+            <TextField
+              id="outlined-basic"
+              label="Last Name"
+              variant="outlined"
+              autoComplete="off"
+            />
           </div>
 
           <div className="inpLogin">
@@ -40,13 +58,13 @@ export default function UserLogin() {
           </div>
           <div className="inpLogin">
             <Button variant="contained" className="loginBtn">
-              Login
+              Sign Up
             </Button>
           </div>
           <div className="inpLogin">
-            <span>Create an Account?</span>
-            <span>
-              <Link className="nav-Link active clickhere" to="/signUp">
+            <span>Already have Account?</span>
+            <span className="clickhere">
+              <Link className="nav-Link active clickhere" to="/">
                 Click here!
               </Link>
             </span>
